@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FCCPM Study Hub</title>
+<meta name="description" content="Study notes, flashcards, quizzes and mock oral exams for the FCCPM (Fellowship, Canadian College of Physicists in Medicine) oral examination.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23123b5c'/%3E%3Cpath d='M32 14a18 18 0 1 0 0 36 18 18 0 1 0 0-36zm0 7l6 10H26zm-11 21l6-10 6 10zm22 0H31l6-10z' fill='%23f4b942'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu">&#9776;</button>
+  <a href="#/" class="brand"><span class="brand-mark">F</span><span>FCCPM Study Hub</span></a>
+  <div class="search-wrap">
+    <input id="search" type="search" placeholder="Search notes, cards, questions…" autocomplete="off">
+    <div id="searchResults" class="search-results" hidden></div>
+  </div>
+  <button class="theme-btn" id="themeBtn" aria-label="Toggle dark mode" title="Toggle dark mode">&#9680;</button>
+</header>
+<div class="layout">
+  <nav class="sidebar" id="sidebar"></nav>
+  <main id="app" class="content" tabindex="-1"></main>
+</div>
+<div class="scrim" id="scrim"></div>
+
+<script src="data/notes-a.js"></script>
+<script src="data/notes-b.js"></script>
+<script src="data/notes-c.js"></script>
+<script src="data/notes-d.js"></script>
+<script src="data/flashcards.js"></script>
+<script src="data/quiz.js"></script>
+<script src="data/oral.js"></script>
+<script src="data/extras.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
